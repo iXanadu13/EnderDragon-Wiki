@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        就这点配置有啥难的.
+        默认配置即可使用, 修改方便
       </>
     ),
   },
@@ -17,7 +17,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        看完文档学不会怎么用说明你是个傻逼.
+        其实配置文件的注释已经很详细了.
       </>
     ),
   },
