@@ -117,6 +117,10 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/iXanadu13/EnderDragon',
               },
+              {
+                label: 'SpigotMC',
+                href: 'https://www.spigotmc.org/resources/enderdragon.101583',
+              },
             ],
           },
         ],
