@@ -4,7 +4,8 @@ sidebar_position: 1
 # PAPI变量
 
 ## 快速查看
-使用指令/papi parse me %ed_...%
+1. 安装 [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/)
+2. 使用指令/papi parse me %ed_...%
 
 ## 功能介绍
 
