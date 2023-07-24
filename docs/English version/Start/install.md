@@ -3,29 +3,30 @@ sidebar_position: 1
 hide_title: true
 ---
 
-## 需求
+## Requirement
 
-1.12-1.20.1 bukkit服务端
+1.12-1.20.1 Bukkit series server (Spigot,Paper,Purpur etc.)
 
-已测试：
+Tested：
 * spigot1.12.2, 1.20
 * paper1.12-1.20.1
-* mohist 1.12.2, 1.16.5
+* purpur1.18.2, 1.19.4
+* mohist 1.12.2, 1.16.5, 1.18.2
 
-## 安装EnderDragon
+## Install EnderDragon
 
 [EnderDragon-Release](https://www.spigotmc.org/resources/enderdragon.101583/)
 
-1. 点击上方链接，通过SpigotMC下载EnderDragon插件
-2. 将文件丢入plugins文件夹
-3. 重启服务器
+1. Click the link, and download EnderDragon plugin on SpigotMC.
+2. Put it into "plugins" folder.
+3. Reload the server.
 
-## 注意
+## Attention
 
 :::caution
 
-尽管本插件已尝试兼容使用plugman热加载
+Although this plugin has tried to support hot-loading
 
-但我不推荐你这么做，因为这可能会引发一些潜在的问题
+But I DON'T recommend you doing this because it may cause some potential problems
 
 :::
