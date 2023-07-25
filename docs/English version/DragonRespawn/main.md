@@ -1,10 +1,10 @@
-# 重生末影龙
+# Auto-Respawn
 
-## 比较
+## Compare
 | - | respawn | respawn_cd |
 | :----: | ---- | ---- |
-| **配置方式** | config.yml中进行配置 | 使用指令/respawn_cd配置，config.yml中仅设置是否启用 |
-| **数据存储** | data.yml | respawn_cd.yml |
-| **计时方式** | 指定目标时间点 | 指定秒数，执行倒计时 |
-| **时间误差** | 小于10s | 小于1s |
-| **世界数量** | 仅1个指定世界 | 无限制 |
+| **Config** | in config.yml | using /respawn_cd (only set whether enable in config.yml) |
+| **Data Storage** | data.yml | respawn_cd.yml |
+| **Timing** | Specify the target time point | Specify seconds, execute countdown |
+| **Time Discrepancy** | less than 10s | less than 1s |
+| **World Number** | only one | unlimited |
