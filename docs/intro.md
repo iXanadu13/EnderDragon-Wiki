@@ -12,8 +12,8 @@ The author is working hard to update...
 作者正在努力更新...
 
 ## contact
-feedback：https://github.com/iXanadu13/EnderDragon/issues
+Feedback：https://github.com/iXanadu13/EnderDragon/issues
 
-email：xanadu13@qq.com
+Email：xanadu13@qq.com
 
 QQ group：309699577
