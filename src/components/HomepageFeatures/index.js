@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        默认配置即可使用, 修改方便
+        Easy to use
       </>
     ),
   },
@@ -17,16 +17,16 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        其实配置文件的注释已经很详细了.
+        Detailed document
       </>
     ),
   },
   {
-    title: '功能强大',
+    title: '功能丰富',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        多说无益, 用用就知道了.
+        Rich features
       </>
     ),
   },
