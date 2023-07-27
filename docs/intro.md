@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# 前言
+# intro
 An easy plugin that can customize your EnderDragon for Minecraft Servers, supports 1.12 and above.
 
 The author is working hard to update...
@@ -11,5 +11,9 @@ The author is working hard to update...
 
 作者正在努力更新...
 
-## 交流
-QQ群：309699577
+## contact
+feedback：https://github.com/iXanadu13/EnderDragon/issues
+
+email：xanadu13@qq.com
+
+QQ group：309699577
