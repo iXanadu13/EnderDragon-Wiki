@@ -29,6 +29,6 @@ Clear all the dropped item for one type of dragon.
 
 ## drop gui (permission: ed.drop.gui)
 > /ed drop gui (name)
-* `(name)` the name of gui. If absent, "main_gui" in config.yml will be used.
+* `(name)` the name of gui. If absent, "main_gui" of config.yml will be used.
 
 Open one gui, in which players can view the dropped items.
