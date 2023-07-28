@@ -18,7 +18,7 @@ Respawn a dragon and initialize the end_crystal in this world
 Get countdown information of respawn in this world
 > /ed respawn_cd set \[world_name] \[time]
 * `[world_name]` The name of one world.
-* `[time]` Countdown setting time.(unit: seconds)
+* `[time]` Countdown setting time. (unit: seconds)
 
 Set the countdown of respawn in this world, which is how many seconds after the death of next EnderDragon to start a respawn
 > /ed respawn_cd remove \[world_name]
