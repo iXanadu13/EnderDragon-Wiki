@@ -7,6 +7,7 @@ sidebar_position: 4
 
 ## drop add (permission: ed.drop.edit)
 > /ed drop add \[unique_name] \[chance]
+
 * `[unique_name]` The "unique_name" in dragon's configuration. (setting/xxx.yml)
 * `[chance]` The probability to take effect. (unit: %)
 
@@ -23,12 +24,14 @@ Edit the item configuration in gui.
 
 ## drop clear (permission: ed.drop.edit)
 > /ed drop clear \[unique_name]
+
 * `[unique_name]` The "unique_name" in dragon's configuration. (setting/xxx.yml)
 
 Clear all the dropped item for one type of dragon.
 
 ## drop gui (permission: ed.drop.gui)
 > /ed drop gui (name)
+
 * `(name)` the name of gui. If absent, "main_gui" of config.yml will be used.
 
 Open one gui, in which players can view the dropped items.
