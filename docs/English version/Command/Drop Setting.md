@@ -12,6 +12,8 @@ sidebar_position: 4
 
 Add dropped item for one type of dragon.
 
+Date will be saved in reward/xxx.yml. You can also choose a favorite item format in "item_format" of config.yml.
+
 ## drop edit (permission: ed.drop.edit)
 > /ed drop edit
 
