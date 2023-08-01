@@ -23,7 +23,7 @@ sidebar_position: 1
 
 **Return:** `0-1`/`null`
 
-Returning null indicates that the current world hasn't set a respawn countdown.
+Returning null indicates that there is no respawn countdown in current world.
 
 If the progress remains unchanged at 1, it indicates that the respawn countdown has been set but not started.
 
@@ -32,14 +32,14 @@ If the progress remains unchanged at 1, it indicates that the respawn countdown 
 * `%ed_respawn_cd_remainTime%` Get the remain seconds of the respawn_cd in the player's world.
 * `%ed_respawn_cd_remainTime_<world_name>%` Get the remain seconds of the respawn_cd in this world.
 
-**Return:** `(seconds)`/`null` (Returning null indicates that the current world hasn't set a respawn countdown)
+**Return:** `(seconds)`/`null` (Returning null indicates that there is no respawn countdown in current world)
 
 ### countdown set seconds
 **Usage:** 
 * `%ed_respawn_cd_setTime%` Get the set seconds of the respawn_cd in the player's world.
 * `%ed_respawn_cd_setTime_<world_name>%` Get the remain seconds of the respawn_cd in this world.
 
-**Return:** `(seconds)`/`null` (Returning null indicates that the current world hasn't set a respawn countdown)
+**Return:** `(seconds)`/`null` (Returning null indicates that there is no respawn countdown in current world)
 
 ### countdown remain seconds (with format)
 **Usage:** 
@@ -48,4 +48,4 @@ If the progress remains unchanged at 1, it indicates that the respawn countdown 
 
 **Attention! Please don't arbitrarily change the number of separators "$".**
 
-**Return:** `(formated string)`/`null` (Returning null indicates that the current world hasn't set a respawn countdown)
+**Return:** `(formated string)`/`null` (Returning null indicates that there is no respawn countdown in current world)
