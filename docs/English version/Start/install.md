@@ -13,6 +13,12 @@ Tested：
 * purpur1.18.2, 1.19.4
 * mohist 1.12.2, 1.16.5, 1.18.2
 
+:::info
+
+Servers that are not on this list also may be able to use EnderDragon. You can try it yourself.
+
+:::
+
 ## Install EnderDragon
 
 [EnderDragon-Release](https://www.spigotmc.org/resources/enderdragon.101583/)
