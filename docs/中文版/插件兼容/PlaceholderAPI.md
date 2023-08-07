@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: PlaceholderAPI
+sidebar_label: PlaceholderAPI
 ---
 # PAPI变量
 
