@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 sidebar_label: PlaceholderAPI
+description: PAPI variable
 ---
 # PAPI variable
 
