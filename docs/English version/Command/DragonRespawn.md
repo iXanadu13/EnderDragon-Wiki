@@ -48,3 +48,13 @@ Start the countdown in this world.
 | **Timing** | Specify the target time point | Specify seconds, execute countdown |
 | **Time Discrepancy** | less than 10s | less than 1s |
 | **World Number** | only one | unlimited |
+
+## Mechanism
+* If you don't want players in survival mode to break the end_crystal when respawn process is running, just fill `auto_respawn.invulnerable` of `config.yml` with `true`.
+* When nobody is in world_the_end, chunks are unloaded and the respawn process is suspended. 
+The process of respawn continues only when the chunk be loaded again. 
+You can also set a chunk frequently loaded using other plugins if you want to.
+* If you stop/reload the server when a respawn process is suspended, the process will break. 
+If you want it to continue in the next time you start the server, just fill `advanced_setting.save_respawn_status` of `config.yml` with `true`.
+* Because of some change of world generation in 1.20, if nobody has ever been to the_end, you can get the response `The world_the_end is unloaded` when respawn been started. 
+But once someone has ever been to THE_END, regardless of whether the server is restarted or whether chunks are loaded, `/ed respawn [world name]` works fine.
