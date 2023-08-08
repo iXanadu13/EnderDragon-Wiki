@@ -12,6 +12,7 @@ Tested：
 * paper1.12-1.20.1
 * purpur1.18.2, 1.19.4
 * mohist 1.12.2, 1.16.5, 1.18.2
+* catserver 1.12.2
 
 :::info
 
