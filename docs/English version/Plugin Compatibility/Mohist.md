@@ -12,6 +12,7 @@ description: a kind of Minecraft server implementing the Spigot/Bukkit API
 
 In some mohist server, return value of `World::getEnvironment()` is always `NORMAL`, causing some problems of respawn function.
 
+If enabled, plugin will provide hot-fix for it.
+
 ![](_images/world_env_fix.jpg)
 
-If enabled, plugin will provide hot-fix for it.
