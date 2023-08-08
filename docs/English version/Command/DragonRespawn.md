@@ -59,7 +59,7 @@ If you want it to continue in the next time you start the server, just fill `adv
 * Because of some change of world generation in 1.20, if nobody has ever been to the_end, you can get the response `The world_the_end is unloaded` when respawn been started. 
 But once someone has ever been to THE_END, regardless of whether the server is restarted or whether chunks are loaded, `/ed respawn [world name]` works fine.
 
-:::note
+:::caution
 
 If you install `Multiverse-Core`, please fill `worlds.<world_name>.keepSpawnInMemory` of `worlds.yml` with `true`.
 
