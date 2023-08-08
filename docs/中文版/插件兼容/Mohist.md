@@ -12,6 +12,6 @@ description: a kind of Minecraft server implementing the Spigot/Bukkit API
 
 在一些mohist服务端中`World::getEnvironment()`获取到的世界类型均为`NORMAL`，导致末影龙复活功能不能正常使用。
 
-![](_images/world_env_fix.jpg)
-
 启用后，将为此提供热修复。
+
+![](_images/world_env_fix.jpg)
