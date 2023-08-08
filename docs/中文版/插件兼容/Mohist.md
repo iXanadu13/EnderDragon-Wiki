@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 sidebar_label: Mohist
-description: a kind of Minecraft server implementing the Spigot/Bukkit API
+description: a kind of Minecraft server
 ---
 
 ## 配置
