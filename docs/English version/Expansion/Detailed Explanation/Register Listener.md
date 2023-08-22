@@ -8,7 +8,7 @@ EnderDragon expansion provides a simplified method to register a listener.
 
 Here is an example: 
 
-```groovy
+```java
 //Set the package name. Nothing matters if you skip this
 package expansion.groovy.Example
 
