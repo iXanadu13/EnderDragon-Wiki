@@ -15,13 +15,11 @@ package expansion.groovy.Example
 //Usually, you need to import classes like what you do in Java before using.
 //However, the plugin has automatically imported some classes for you during script engine initialization,
 //so some class names and variables can be used directly.
-//For example, you can delete this(import org.bukkit.Bukkit) without affecting script operation
-import org.bukkit.Bukkit
+import org.bukkit.Bukkit  //For example, you can delete this without affecting script operation
 import org.bukkit.event.EventPriority
 import org.bukkit.event.player.PlayerJoinEvent
 import org.bukkit.event.player.PlayerQuitEvent
-//The same goes for this import
-import pers.xanadu.enderdragon.script.Events
+import pers.xanadu.enderdragon.script.Events  //The same goes for this import
 
 /**
  * Function enable() will be called when a script is loaded.
