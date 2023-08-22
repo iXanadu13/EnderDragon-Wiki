@@ -19,6 +19,6 @@ UTF-8 is recommended for file encoding to avoid garbled code
 :::
 
 ## Function
-You can almost do anything with groovy script, and even write an EnderDragon plugin using it.
+You can almost do anything with Groovy, and even write an EnderDragon plugin using it.
 
 Most code written in Java can run normally in Groovy even without modification.
