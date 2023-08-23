@@ -26,9 +26,14 @@ The only difference is that Groovy allows you to change the name
 import org.bukkit.Bukkit as Bk
 ```
 
+:::caution
+
 Although you can import classes or objects from other Groovy scripts, this will cause problems because scripts are loaded in order.
 
 If the imported script is not loaded before it, the imported object cannot be found. 
+
+:::
+
 Therefore, it's a wise choice to make scripts independent of each other.
 
 This is also the reason why I mentioned earlier that package's name is not important.
