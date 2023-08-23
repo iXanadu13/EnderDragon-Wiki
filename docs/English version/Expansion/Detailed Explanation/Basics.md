@@ -103,14 +103,14 @@ HashMap<String, String> map2 = new HashMap()  //Specify the data type stored in 
 
 ## Loop
 
-for loop(same as Java)：
+for loop(same as Java):
 ```js
 for(int i=0;i<10;i++){
     // your code
 }
 ```
 
-enhanced for loop：
+enhanced for loop:
 ```js
 def numbers = [1, 2, 3, 4, 5]
 for (num in numbers) {
@@ -121,7 +121,7 @@ for (int num : numbers) {//same as Java
 }
 ```
 
-forEach loop：
+forEach loop:
 
 ```js
 def numbers = [1, 2, 3, 4, 5]
