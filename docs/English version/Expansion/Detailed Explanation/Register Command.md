@@ -53,7 +53,7 @@ And here is a simpler example:
 ```js
 def executor = {
     sender, cmd, label, args ->{
-        sender.sendMessage("I'm a test command")//sender a message to command sender
+        sender.sendMessage("I'm a test command")
         return true
     }
 }
