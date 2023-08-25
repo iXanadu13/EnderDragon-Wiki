@@ -41,6 +41,18 @@ Start the countdown in this world.
 (After setting, the default state is not started. If you want to start immediately, you can use this command)
 
 ## Compare
+> 插件版本: 2.2.0
+
+| - | respawn | respawn_cd |
+| :----: | ---- | ---- |
+| **Config** | in config.yml | using /respawn_cd (only set whether enable in config.yml) |
+| **Data Storage** | data.yml | respawn_cd.yml |
+| **Timing** | Specify the target time point | Specify seconds, execute countdown |
+| **Time Discrepancy** | less than 1s | less than 1s |
+| **Max Number** | unlimited | only one per world |
+
+> 插件版本: 2.1.2
+
 | - | respawn | respawn_cd |
 | :----: | ---- | ---- |
 | **Config** | in config.yml | using /respawn_cd (only set whether enable in config.yml) |
