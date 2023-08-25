@@ -41,7 +41,7 @@ Start the countdown in this world.
 (After setting, the default state is not started. If you want to start immediately, you can use this command)
 
 ## Compare
-> 插件版本: 2.2.0
+> Plugin version: 2.2.0
 
 | - | respawn | respawn_cd |
 | :----: | ---- | ---- |
@@ -51,7 +51,7 @@ Start the countdown in this world.
 | **Time Discrepancy** | less than 1s | less than 1s |
 | **Max Number** | unlimited | only one per world |
 
-> 插件版本: 2.1.2
+> Plugin version: 2.1.2
 
 | - | respawn | respawn_cd |
 | :----: | ---- | ---- |
