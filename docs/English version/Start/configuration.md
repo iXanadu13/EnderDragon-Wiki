@@ -26,7 +26,7 @@ damage_statistics:
 special_dragon_jude_mode: 'weight'
 
 #format: '<NAME>:<WEIGHT>'   (the type of value is positive integer)
-#this name is corresponding to the file name
+#<NAME> is corresponding to the file name
 # For example, if you want to add a new dragon,
 # you can create a new file named '<NAME>.yml' in plugins/EnderDragon/setting,
 # and then add - '<NAME>:<WEIGHT>' here
