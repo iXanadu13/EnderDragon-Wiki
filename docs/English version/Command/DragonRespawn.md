@@ -51,15 +51,6 @@ Start the countdown in this world.
 | **Time Discrepancy** | less than 1s | less than 1s |
 | **Max Number** | unlimited | only one per world |
 
-> Plugin version: 2.1.2
-
-| - | respawn | respawn_cd |
-| :----: | ---- | ---- |
-| **Config** | in config.yml | using /respawn_cd (only set whether enable in config.yml) |
-| **Data Storage** | data.yml | respawn_cd.yml |
-| **Timing** | Specify the target time point | Specify seconds, execute countdown |
-| **Time Discrepancy** | less than 10s | less than 1s |
-| **World Number** | only one | unlimited |
 
 ## Mechanism
 * If you don't want players in survival mode to break the end_crystal when respawn process is running, just fill `auto_respawn.invulnerable` of `config.yml` with `true`.
