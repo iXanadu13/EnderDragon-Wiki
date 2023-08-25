@@ -25,8 +25,7 @@ damage_statistics:
 #'pc': namely 'priority+chance', dragons(except the default one) will be sorted in descending order of priority, and plugin will sequently try to spawn each dragon(according to respective chance). Once succeed, it will spawn and dragons behind it will be skipped. If all attempts fail, spawn the default one.
 special_dragon_jude_mode: 'weight'
 
-#format: '<NAME>:<WEIGHT>'   (the type of value is positive integer)
-#<NAME> is corresponding to the file name
+#format: '<NAME>:<WEIGHT>'   (<NAME> -> file name; <WEIGHT> -> positive integer)
 # For example, if you want to add a new dragon,
 # you can create a new file named '<NAME>.yml' in plugins/EnderDragon/setting,
 # and then add - '<NAME>:<WEIGHT>' here
