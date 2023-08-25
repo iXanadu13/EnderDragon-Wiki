@@ -5,6 +5,7 @@ hide_title: true
 
 ## config.yml
 >  Plugin version: 2.2.0
+
 ```yaml
 #You don't need to edit it.
 version: 2.2.0
