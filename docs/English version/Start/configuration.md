@@ -26,7 +26,7 @@ special_dragon_jude_mode: 'weight'
 
 #format: 'name:weight'   (the type of value is positive integer)
 #this name is corresponding to the file name
-#For example,if you want to add a new dragon, you can create a new file named '<NAME>.yml' in plugins/EnderDragon/setting, and then add - '<NAME>:<WEIGHT>' here
+#For example, if you want to add a new dragon, you can create a new file named 'NAME.yml' in plugins/EnderDragon/setting, and then add - 'NAME:WEIGHT' here
 dragon_setting_file:
   - 'default:5'
   - 'special:5'
