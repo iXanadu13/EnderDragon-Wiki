@@ -4,7 +4,7 @@ hide_title: true
 ---
 
 ## config.yml
->  Plugin version: 2.2.0
+>  Plugin version: 2.2.1
 
 ```yaml
 #You don't need to edit it.
@@ -103,7 +103,7 @@ advanced_setting:
 
 
 ## setting/default.yml
->  Plugin version: 2.2.0
+>  Plugin version: 2.2.1
 
 ```yaml
 version: 2.2.0
