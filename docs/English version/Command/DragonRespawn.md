@@ -41,7 +41,7 @@ Start the countdown in this world.
 (After setting, the default state is not started. If you want to start immediately, you can use this command)
 
 ## Compare
-> Plugin version: 2.2.0
+> Plugin version: 2.2.1
 
 | - | respawn | respawn_cd |
 | :----: | ---- | ---- |
