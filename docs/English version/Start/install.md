@@ -5,7 +5,7 @@ hide_title: true
 
 ## Requirement
 
-1.12-1.20.1 Bukkit series server (Spigot,Paper,Purpur etc.)
+1.12-1.20.2 Bukkit series server (Spigot,Paper,Purpur etc.)
 
 Tested：
 * spigot 1.12.2, 1.20
