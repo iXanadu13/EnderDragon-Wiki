@@ -66,9 +66,20 @@ println(toUpperCaseMethod())  //Output: HELLO, WORLD!
 
 ## Global Variable
 
-In fact, there is no concept of "global variables" in Groovy, where "global" refers to being accessible anywhere in the script.
+Use annotation `@Field` to change the scope of the variable to a field of the enclosing script.
 
-Similar to Java, it cannot be directly defined in Groovy. You need to set a layer of classes outside.
+```js
+import groovy.transform.Field
+
+@Field static String value = "abc"
+@Field static def value2 = "test"
+static void enable(){
+    Bukkit.getLogger().info(value)
+    Bukkit.getLogger().info(value2)
+}
+```
+
+Similar to Java, you can also achieve it indirectly through adding a layer of classes outside.
 
 ```js
 class TestClass{
@@ -76,9 +87,9 @@ class TestClass{
     def value2 = "test"
 }
 static void enable(){
-    Bukkit.broadcastMessage(TestClass.value)  //Static variables can be directly accessed through classes
+    Bukkit.getLogger().info(TestClass.value)  //Static variables can be directly accessed through classes
     def clazz = new TestClass()
-    Bukkit.broadcastMessage(clazz.value2)  //Member variables need to be accessed through objects
+    Bukkit.getLogger().info(clazz.value2)  //Member variables need to be accessed through objects
 }
 ```
 
