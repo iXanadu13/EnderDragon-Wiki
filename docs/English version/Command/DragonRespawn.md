@@ -40,6 +40,14 @@ Delete countdown information of respawn in ALL worlds
 Start the countdown in this world. 
 (After setting, the default state is not started. If you want to start immediately, you can use this command)
 
+## spawn
+> /ed spawn \[unique_name] (world_name)
+
+* `[unique_name]` The "unique_name" in dragon's configuration. (setting/xxx.yml)
+* `(world_name)` If absent, sender can only be player and sender's current world will be selected.
+
+Respawn a dragon with specified type and initialize the end_crystal in this world
+
 ## Compare
 > Plugin version: 2.2.1
 
