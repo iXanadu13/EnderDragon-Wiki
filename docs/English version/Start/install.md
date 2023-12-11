@@ -5,12 +5,12 @@ hide_title: true
 
 ## Requirement
 
-1.12-1.20.2 Bukkit series server (Spigot,Paper,Purpur etc.)
+1.12-1.20.4 Bukkit series server (Spigot,Paper,Purpur etc.)
 
 Tested：
-* spigot 1.12.2, 1.20
+* spigot 1.12.2, 1.20, 1.20.3
 * paper 1.12-1.20.1
-* purpur 1.18.2, 1.19.4
+* purpur 1.18.2, 1.19.4, 1.20.1
 * mohist 1.12.2, 1.16.5, 1.18.2
 * catserver 1.12.2
 
