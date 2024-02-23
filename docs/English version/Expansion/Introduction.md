@@ -5,7 +5,7 @@ sidebar_position: 1
 ## Enable
 The script extension function is disabled by default.
 
-You can fill `expansion` of `config.yml` with `true` to enable corresponding function.
+You can enable corresponding options under `expansion` of `config.yml`.
 
 ## Storage Path
 All groovy scripts are stored in the folder `plugins\EnderDragon\expansion\groovy`.
