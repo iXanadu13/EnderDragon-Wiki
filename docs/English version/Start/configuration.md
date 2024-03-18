@@ -320,3 +320,53 @@ reward_dist:
     max_num: 1
 
 ```
+
+## gui/xxx.yml
+>  Plugin version: 2.5.0
+
+At 2.5.0 and above, data_type: simple for **gui items** is added for simplifying the configuration and compatible with coming 1.20.5+
+
+In simple mode, here are the available options: 
+* [material](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html) (some differences exist between 1.13+ and 1.12.x)
+* amount
+* display_name
+* loc_name (localized name)
+* lore (lore, List)
+* [enchants](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html) (enchantments)
+* CustomModelData 
+* RepairCost 
+* unbreakable (true/false)
+* ItemFlags (attribute hide flags, List)
+* damage
+
+Here is a full example:
+```yaml
+data_type: simple
+data:
+  material: ORANGE_STAINED_GLASS_PANE
+  amount: 10
+  display_name: "§btest glass pane"
+  loc_name: "§rloc_name"
+  lore:
+    - "§rthe first line"
+    - "§rthe second line"
+  enchants:
+    DAMAGE_ALL: 5
+    DURABILITY: 114
+  CustomModelData: 10003
+  RepairCost: 3
+  unbreakable: true
+  ItemFlags:
+    - "HIDE_ENCHANTS"
+    - "HIDE_ATTRIBUTES"
+    - "HIDE_UNBREAKABLE"
+  damage: 2
+```
+
+:::info
+
+If you try this gui item configuration, then you will get an error. That's because "ORANGE_STAINED_GLASS_PANE" only exists in 1.13+.
+
+In 1.12.x servers, glass pane with all colors are named "STAINED_GLASS_PANE", which can only be distinguished with "damage"
+
+:::
